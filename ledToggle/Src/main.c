@@ -26,7 +26,7 @@
 
 int main(void) {
 
-  /* 1. Enable Clock Access To GPIO A */
+  /* 1. EnableClock Access To GPIO A */
 
   RCC_AHB1EN_R |= GPIOAEN;
 
